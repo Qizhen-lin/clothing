@@ -1,0 +1,86 @@
+/* header 最外層 */
+header {
+  background-color: #000;
+}
+header .header_content {
+  height: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  color: #fff;
+  justify-content: space-between; /* 整個區塊平均分配 */
+  align-items: center; /* 垂直置中，要有 display flex 才能使用 */
+}
+
+/* nav 區塊 */
+header nav {
+  display: flex;
+}
+header nav div {
+  margin: 0 15px;
+  cursor: pointer; /* 游標變手指頭符號 */
+}
+header nav div:nth-child(1) { /* 選取器：針對第幾個 css 命名去做 css */
+  margin-left: 0;
+}
+header nav div:last-child { /* 選取器：針對最後一個 css 命名去做 css */
+  margin-right: 0;
+}
+header .login {
+  cursor: pointer;
+}
+
+
+/* 上方廣告輪播 */
+.backaround_banner {
+  height: 375px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #292929;;
+}
+
+
+/* 主要產品 */
+main {
+ margin-top: 20px;
+}
+main .products {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .products > div { /* > 就是選擇第一層的 div */
+  width: 225px;
+  margin: 10px;
+}
+main .prouductstitle {
+  margin-top: 20px;
+  color: #000;
+  font-size: 14px;
+}
+main p {
+  margin-top: 10px;
+  color: #7d7d7d;
+  font-size: 13px;
+}
+
+
+footer {
+  background-color: goldenrod;
+  height: 56px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+footer .footer_declaration {
+  margin-top: 10px;
+  font-size: 12px;
+}
+footer span {
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
