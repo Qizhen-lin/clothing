@@ -34,33 +34,21 @@ nav a {
   text-decoration:none;
 }
 
-
-/* 上方廣告輪播 */
-.backaround_banner {
-  height: 375px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid #292929;;
-}
-
-
 /* 主要產品 */
 main {
  margin-top: 20px;
 }
-main .products {
+main .product {
   margin: 0 auto;
   width: 1000px;
   display: flex;
   flex-wrap: wrap;
 }
-main .products > div { /* > 就是選擇第一層的 div */
+main .product > div { /* > 就是選擇第一層的 div */
   width: 225px;
   margin: 10px;
 }
-main .prouductstitle {
+main .prouductcontents {
   margin-top: 20px;
   color: #000;
   font-size: 14px;
