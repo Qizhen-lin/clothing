@@ -92,6 +92,7 @@ footer span {
   background: -o-linear-gradient(0deg, rgba(0, 0, 0, 1)0%, rgba(255, 255, 255, 0)75%);
   height: 500px;
 }
+
 h2 {
   width: 350px;
   text-align: center;
@@ -109,6 +110,17 @@ h2 {
   padding: 20px;
   line-height: 1.5;
   letter-spacing: 1px; /* 字跟字的距離 */
+}
+
+.message {
+  font-family: Microsoft JhengHei;
+  color: aliceblue;
+  font-size: 16px;
+  width: 350px;
+  margin: 0 23px 15px;
+  padding-bottom: 10px;
+ 
+  
 }
 
 .font p {
@@ -166,7 +178,7 @@ h2 {
   font-family: Microsoft JhengHei;
   color: 	#444444;
   font-size: 28px;
-  padding: 20px;
+  padding: 22px;
   line-height: 1.5;
   letter-spacing: 1px;
 }
@@ -178,5 +190,20 @@ h2 {
   color: #444444;
   line-height: 1.5;
   text-align: justify;
+  letter-spacing: 1px;
+}
+
+.works {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #CCDDFF;
+  padding-bottom: 20px;
+}
+.works h5 {
+  font-family: Microsoft JhengHei;
+  color: 	#444444;
+  font-size: 28px;
+  padding: 22px;
+  line-height: 1.5;
   letter-spacing: 1px;
 }
