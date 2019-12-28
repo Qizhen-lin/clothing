@@ -1,0 +1,116 @@
+/* header 最外層 */
+header {
+  background-color: #000;
+}
+header .header_content {
+  height: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  color: #fff;
+  justify-content: space-between; /* 整個區塊平均分配 */
+  align-items: center; /* 垂直置中，要有 display flex 才能使用 */
+}
+
+/* nav 區塊 */
+header nav {
+  display: flex;
+}
+header nav div {
+  margin: 0 15px;
+  cursor: pointer; /* 游標變手指頭符號 */
+}
+header nav div:nth-child(1) { /* 選取器：針對第幾個 css 命名去做 css */
+  margin-left: 0;
+}
+header nav div:last-child { /* 選取器：針對最後一個 css 命名去做 css */
+  margin-right: 0;
+}
+header .login {
+  cursor: pointer;
+}
+nav a {
+  color: #fff;
+  text-decoration:none;
+}
+
+div h1 {
+  color: dimgray;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.faqs {
+  margin: 0 auto;
+  width: 1000px;
+
+}
+
+.faqs .summary {
+  text-align: center;
+}
+
+.faqs .title {
+  text-align: center;
+}
+
+.faqs .summary .box {
+  width: 600px;
+  height: 30px;
+  margin: 20px auto ;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px  #7d7d7d solid;
+  
+}
+
+.faqs .title .textarea {
+  width: 590px;
+  height: 200px;
+  margin: 20px auto ;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px  #7d7d7d solid;
+}
+
+.faqs h2 {
+  font-family: Microsoft JhengHei;
+  padding-left: 100px ;
+}
+
+.faqs .button {
+  text-align: center;
+  margin-bottom: 290px;
+}
+
+.faqs .button .submit {
+  font-size: 16px;
+  border-radius: 5px;
+  background-color:#D9006C;
+  color: antiquewhite;
+  border: 0;
+  width: 100px;
+  padding: 8px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: goldenrod;
+  height: 56px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+footer .footer_declaration {
+  margin-top: 10px;
+  font-size: 12px;
+}
+footer span {
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
