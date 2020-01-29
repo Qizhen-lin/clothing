@@ -1,6 +1,6 @@
 /* header 最外層 */
 header {
-  background-color: #000;
+  background-color: #FF80BF;
 }
 header .header_content {
   height: 50px;
@@ -99,7 +99,7 @@ div h1 {
 
 
 footer {
-  background-color: goldenrod;
+  background-color: #e67683;
   height: 56px;
   margin-top: 50px;
   text-align: center;
