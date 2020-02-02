@@ -95,8 +95,7 @@ footer span {
 
 h2 {
   width: 350px;
-  text-align: center;
-  padding-top: 104px;
+  padding: 104px 0 0 20px;
   font-size: 28px;
   color: #fff;
   font-family: Microsoft JhengHei;
@@ -137,15 +136,14 @@ h2 {
 .content {
   margin: 0 auto;
   width: 1000px;
-  background-color: #CCDDFF;
+  background-color: #ffe0e4;
   padding-bottom: 20px;
 }
 
 .content h2 {
   font-family: Microsoft JhengHei;
-  color: 	#444444;
+  color: #444;
   font-size: 28px;
-  width: 60px;
   padding: 20px;
   line-height: 1.5;
   letter-spacing: 1px; /* 字跟字的距離 */
@@ -174,14 +172,27 @@ h2 {
   list-style-type: disc;
   margin-left: 24px;
 }
-.information h4 {
+.works h4 {
+  font-size: 22px;
   font-family: Microsoft JhengHei;
-  color: 	#444444;
-  font-size: 28px;
-  padding: 22px;
+  color: 	#0088A8	;
   line-height: 1.5;
   letter-spacing: 1px;
+  margin:0 21px 20px;
+  
 }
+
+.works  li {
+  margin: 10px 0 ;
+  font-family: Microsoft JhengHei;
+  list-style-type: disc;
+  margin-left: 72px;
+}
+
+.works .images {
+  text-align: center;
+}
+
 
 .information p {
   margin: 10px 24px;
@@ -196,7 +207,7 @@ h2 {
 .works {
   margin: 0 auto;
   width: 1000px;
-  background-color: #CCDDFF;
+  background-color: #ffe0e4;
   padding-bottom: 20px;
 }
 .works h5 {
