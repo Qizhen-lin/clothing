@@ -239,21 +239,22 @@
     
     // showDivs 函式
     function showDivs(n) {
-      var i;
       var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {
+      // console.log("x", x);
+      if (n > x.length) { // 主要是判斷第四頁點下一頁
         slideIndex = 1
       }
-      if (n < 1) {
+      if (n < 1) { // 主要是判斷第一頁點上一頁
         slideIndex = x.length
       }
-      for (i = 0; i < x.length; i++) {
+      for (var i = 0; i < x.length; i++) { // 主要是判斷第幾頁圖打開，其他頁圖隱藏
         x[i].style.display = "none";
       }
-      x[slideIndex-1].style.display = "block";
+      x[slideIndex-1].style.display = "block"; // 打開第幾張圖
+      // console.log("x[1]", x[1]);
     }
 
-    // 每 4 秒執行一次 showDivs 函式並帶 slideIndex 值 +1
+    // 每 4 秒執行一次 showDivs 函式並帶 slideIndex 值 +1 (1千毫秒 = 1秒)
     setInterval(() => {
       showDivs(slideIndex += 1);
     }, 4000);
